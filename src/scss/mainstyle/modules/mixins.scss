@@ -1,0 +1,51 @@
+/**
+ * modules/mixins
+ * ---
+ */
+
+ @function em($pixels, $context: $browser-context) { //px to em converter
+  @return #{$pixels/$context}em
+}
+
+
+@mixin reset-box {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin vertical-align($pos: absolute) {
+  position: $pos;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin mask-site($color:$main-brand-color, $opacity:0.8){ //covers entire page with a div
+  z-index: 99;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color, $opacity);   
+}
+
+@mixin flip-h { //flip div horizontally
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+@mixin flip-v{ //flip div vertically
+  -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}

@@ -1,0 +1,43 @@
+/**
+ * modules/variables
+ * ---
+ */
+
+
+/**
+ * Typography
+ */
+
+$font-family-base: "Monserrat", Helvetica, Arial, "Open Sans", sans-serif;
+$header-family-base: 'Roboto Black', Georgia, 'Times New Roman', serif;
+$line-height-base: 1.5;
+$font-size-base: 16px;
+
+$browser-context: 16; // Default for mixin px to em converter
+
+
+/**
+ * Colors
+ */
+
+//brand colors
+$main-brand-color: #33c2d3;
+
+//site colors
+$text-color: #75767a;
+$body-bg: #fff;
+$accent: #5a4296;
+
+//utility colors
+$alert: red;
+
+
+/**
+ * Susy
+ */
+
+$susy: (
+  columns: 12,
+);
+
+

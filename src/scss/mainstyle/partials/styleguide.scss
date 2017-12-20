@@ -1,0 +1,103 @@
+/**
+ * partials/styleguide
+ * ---
+ * classes limited to the styleguide page
+ */
+
+.sg-title{
+  border-bottom: 1px solid ;
+  margin-bottom: 15px;
+}
+
+.sg-section{
+  padding: em(20) 5%;
+  @include container(100%);
+}
+
+/*------------------------------------*\
+  #COLORS
+\*------------------------------------*/
+
+.sg-pallete{
+  padding: 5px;
+  width: 50%;
+  text-indent: 50%;
+  white-space: nowrap;
+  margin: 0 0 15px 0;
+}
+
+.sg-brand-01{
+  background: $main-brand-color;
+  color: $main-brand-color;
+}
+
+/*------------------------------------*\
+  #BANNER
+\*------------------------------------*/
+
+.banner{
+  position: relative;
+  background: linear-gradient(to left, #33c0d2 , #594195);
+  min-height: 250px;
+  
+}
+
+.banner__copy{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5%;
+    color: #ffffff;
+    text-align: center;
+  }
+
+.about{
+  text-align: center;
+  padding: 40px 5% 20px 5%;
+}
+
+.about__image{
+  text-align: center;
+  .img-wrap{
+    margin: 0 auto;
+    width: 150px;
+  }
+}
+
+.about__copy{
+  margin: 20px 0;
+}
+
+.skillset{
+  text-align: center;
+  padding: 20px 5%;
+  .skill{
+    display: inline-block;
+    width: 45%;
+    padding: 20px 10px;
+    margin: 5px;
+
+  }
+  .skill__icon{
+    width: 50px;
+    margin: 0 auto;
+  }
+  .skill__copy{
+    color: #696969;
+  }
+}
+
+.projects{
+  text-align: center;
+  padding: 20px 5%;
+  &:hover{
+    cursor: pointer;
+  }
+  .project{
+    margin: 20px 0;
+    border: 1px solid #eeeeee;
+  }
+  .project__copy{
+    padding: 20px 15px;
+  }
+}

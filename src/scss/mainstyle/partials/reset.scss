@@ -1,0 +1,107 @@
+/**
+ * partials/reset
+ * ---
+ * Reset file
+ * NOTE: also `normalize.css` is used
+ */
+
+
+// Global box-sizing
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  // `font-size` for REM use
+  // Cancel hightlight color when tapping in iOS
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  position:relative;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  // Don't allow <IMG> to be larger then its container
+  max-width: 100%;
+  // Omit space caused by default style, between images lines
+  vertical-align: middle;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {}
+}
+
+input[type="text"],
+input[type="search"] {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+// Text selection
+::selection {
+  background-color: $accent;
+  color: $main-brand-color;
+  text-shadow: none;
+}
+
+/* TYPOGRAPHY */
+
+p{
+  font-size: em(13);
+  line-height: em(25);
+
+  > a{
+    color: $accent;
+    transition: color 300ms;
+
+    &:hover{
+      color: darken($accent,20);
+    }
+  }
+}
+
+h1{
+  font-size: 2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $header-family-base;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, p, ul, body, blockquote{
+  margin: 0;
+  padding: 0;
+} 
+
+blockquote{
+  border-left: 5px solid $accent;
+  font-style: italic;
+  font-weight: 700;
+  margin: 20px;
+  padding-left: 15px;
+}
+
+button {
+  outline: none;
+  &:hover {
+    cursor: pointer;
+  }
+}

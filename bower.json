@@ -1,0 +1,18 @@
+{
+  "name": "for susy",
+  "version": "0.0.0",
+  "authors": [
+    "Jess <jess.limcangco@yahoo.com>"
+  ],
+  "description": "bower template just for susy",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "susy": "~2.2.6",
+    "compass-breakpoint": "breakpoint-sass#~2.6.1"
+  }
+}
