@@ -155,7 +155,7 @@ button {
  */
 header {
   text-align: center;
-  padding: 5% 0; }
+  padding: 20px 0; }
 
 /**
  * partials/buttons and a tags
@@ -332,6 +332,8 @@ header {
 .banner__copy {
   position: absolute;
   top: 50%;
+  left: 0;
+  right: 0;
   transform: translateY(-50%);
   padding: 5%;
   color: #ffffff;
@@ -339,16 +341,27 @@ header {
 
 .about {
   text-align: center;
-  padding: 40px 5% 20px 5%; }
+  padding: 40px 5% 20px 5%;
+  max-width: 1000px;
+  margin: 0 auto; }
 
 .about__image {
   text-align: center; }
+  @media (min-width: 768px) {
+    .about__image {
+      display: inline-block;
+      width: 30%; } }
   .about__image .img-wrap {
     margin: 0 auto;
     width: 150px; }
 
 .about__copy {
   margin: 20px 0; }
+  @media (min-width: 768px) {
+    .about__copy {
+      display: inline-block;
+      width: 59%;
+      vertical-align: middle; } }
 
 .skillset {
   text-align: center;
@@ -358,6 +371,12 @@ header {
     width: 45%;
     padding: 20px 10px;
     margin: 5px; }
+    @media (min-width: 425px) {
+      .skillset .skill {
+        width: 29%; } }
+    @media (min-width: 700px) {
+      .skillset .skill {
+        width: 20%; } }
   .skillset .skill__icon {
     width: 50px;
     margin: 0 auto; }
@@ -372,6 +391,13 @@ header {
   .projects .project {
     margin: 20px 0;
     border: 1px solid #eeeeee; }
+    @media (min-width: 600px) {
+      .projects .project {
+        display: inline-block;
+        width: 49%; } }
+    @media (min-width: 1024px) {
+      .projects .project {
+        width: 30%; } }
   .projects .project__copy {
     padding: 20px 15px; }
 

@@ -96,9 +96,60 @@
 						<h4>html</h4>
 					</div>
 				</div>
+				<div class="skill">
+					<div class="skill__icon">
+						<img src="dist/images/html_icon.png" alt="">
+					</div>
+					<div class="skill__copy">
+						<h4>html</h4>
+					</div>
+				</div>
+				<div class="skill">
+					<div class="skill__icon">
+						<img src="dist/images/html_icon.png" alt="">
+					</div>
+					<div class="skill__copy">
+						<h4>html</h4>
+					</div>
+				</div>
+				<div class="skill">
+					<div class="skill__icon">
+						<img src="dist/images/html_icon.png" alt="">
+					</div>
+					<div class="skill__copy">
+						<h4>html</h4>
+					</div>
+				</div>
+				<div class="skill">
+					<div class="skill__icon">
+						<img src="dist/images/html_icon.png" alt="">
+					</div>
+					<div class="skill__copy">
+						<h4>html</h4>
+					</div>
+				</div>
 			</div>
 			<div class="projects">
 				<h4>Missions</h4>
+				<div class="project">
+					<div class="project__image">
+						<img src="dist/images/ninin.jpg" alt="">
+					</div>
+					<div class="project__copy">
+						<h5>Lorem ipsum dolor sit amet.</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+					<div class="project__skills">
+						<div class="skill">
+							<div class="skill__icon">
+								<img src="dist/images/html_icon.png" alt="">
+							</div>
+							<div class="skill__copy">
+								<h4>html</h4>
+							</div>
+						</div>		
+					</div>
+				</div>
 				<div class="project">
 					<div class="project__image">
 						<img src="dist/images/ninin.jpg" alt="">
