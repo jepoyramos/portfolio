@@ -366,40 +366,60 @@ header {
 .skillset {
   text-align: center;
   padding: 20px 5%; }
-  .skillset .skill {
-    display: inline-block;
-    width: 45%;
-    padding: 20px 10px;
-    margin: 5px; }
-    @media (min-width: 425px) {
-      .skillset .skill {
-        width: 29%; } }
-    @media (min-width: 700px) {
-      .skillset .skill {
-        width: 20%; } }
-  .skillset .skill__icon {
-    width: 50px;
-    margin: 0 auto; }
-  .skillset .skill__copy {
-    color: #696969; }
+
+.skill {
+  display: inline-block;
+  width: 45%;
+  padding: 20px 10px;
+  margin: 5px; }
+  @media (min-width: 425px) {
+    .skill {
+      width: 29%; } }
+  @media (min-width: 700px) {
+    .skill {
+      width: 20%; } }
+
+.skill__icon {
+  width: 50px;
+  margin: 0 auto; }
+
+.skill__copy {
+  color: #696969; }
 
 .projects {
   text-align: center;
   padding: 20px 5%; }
   .projects:hover {
     cursor: pointer; }
-  .projects .project {
-    margin: 20px 0;
-    border: 1px solid #eeeeee; }
-    @media (min-width: 600px) {
-      .projects .project {
-        display: inline-block;
-        width: 49%; } }
-    @media (min-width: 1024px) {
-      .projects .project {
-        width: 30%; } }
-  .projects .project__copy {
-    padding: 20px 15px; }
+
+.project {
+  margin: 20px 0;
+  border: 1px solid #eeeeee; }
+  @media (min-width: 600px) {
+    .project {
+      display: inline-block;
+      width: 49%; } }
+  @media (min-width: 1024px) {
+    .project {
+      width: 30%; } }
+
+.project__copy {
+  padding: 20px 15px; }
+
+.project__skills {
+  padding: 0 15px; }
+  .project__skills .skill {
+    display: inline-block;
+    margin: 8px 4px;
+    width: 29%; }
+    @media (min-width: 500px) {
+      .project__skills .skill {
+        width: 22%; } }
+  .project__skills .skill__icon {
+    margin: 0 auto;
+    width: 40px; }
+  .project__skills .skill__copy {
+    font-size: 14px; }
 
 /*------------------------------------*  #LANDING PAGE LAYOUT
 \*------------------------------------*/

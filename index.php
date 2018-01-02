@@ -147,6 +147,30 @@
 							<div class="skill__copy">
 								<h4>html</h4>
 							</div>
+						</div>
+						<div class="skill">
+							<div class="skill__icon">
+								<img src="dist/images/html_icon.png" alt="">
+							</div>
+							<div class="skill__copy">
+								<h4>html</h4>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skill__icon">
+								<img src="dist/images/html_icon.png" alt="">
+							</div>
+							<div class="skill__copy">
+								<h4>html</h4>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="skill__icon">
+								<img src="dist/images/html_icon.png" alt="">
+							</div>
+							<div class="skill__copy">
+								<h4>html</h4>
+							</div>
 						</div>		
 					</div>
 				</div>
